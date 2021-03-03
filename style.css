@@ -1,0 +1,66 @@
+/*
+
+a:first-child:hover{
+    color: lightskyblue;
+    font-weight: bold;
+}
+
+.red:active{
+    color:red;
+    font-style: italic;
+
+}
+
+.yellow:visited{
+    color:rgb(196, 171, 33);
+}
+
+input:focus{
+    color:green;
+    font-size:20px;
+}
+
+*/
+
+html, body{
+    margin:0;
+    padding:0;
+}
+
+ul{
+    background-color:darkblue;
+    
+    
+}
+
+a{
+    color:white;
+    list-style-type: none;
+    text-decoration: none;
+    list-style: none;
+}
+
+li{
+    display: inline;
+    margin:20px;
+   
+}
+
+li:first-child{
+    margin: 0;
+}
+
+.currentPage{
+    background-color: rgb(63, 81, 161);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.currentPage:hover{
+    background-color:lightblue;
+}
+
+input:focus{
+    border: solid aqua;
+    outline:none;
+}
